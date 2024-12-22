@@ -8,32 +8,14 @@
     <title>Document</title>
   </head>
   <body>
-    <button id="button">display todos</button>
+    <h1>Country Search & Statistics</h1>
 
-    <table>
-      <tbody id="stats"></tbody>
-    </table>
+    <form id="theCountryForm">
+      <input type="text" id="nameOfTheCountry" required />
+      <button type="submit" id="searchButton">Search Country</button>
+      <button type="button" id="CountriesButtonSearch">All countries</button>
+    </form>
 
-    <table>
-      <thead>
-        <tr>
-          <th>userId</th>
-          <th>completed</th>
-          <th>incompleted</th>
-        </tr>
-      </thead>
-      <tbody id="users"></tbody>
-    </table>
-
-    <table>
-      <thead>
-        <tr>
-          <th>userId</th>
-          <th>title</th>
-          <th>completed</th>
-        </tr>
-      </thead>
-      <tbody id="todos"></tbody>
-    </table>
+    <div id="productContainer"></div>
   </body>
 </html>
