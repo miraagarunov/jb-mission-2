@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d9eafb;
+    padding: 20px;
+    margin: 0;
+    color: #010149;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #27274c;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h2, h3 {
+    color: #53577d;
+    font-weight: 600;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  input, button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #dde9ff;
+    box-shadow: 0 2px 5px rgba(17, 14, 169, 0.256);
+  }
+  
+  input {
+    width: 300px;
+  }
+  
+  button {
+    background-color: #ebecf1;
+    color: rgb(26, 39, 107);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #536dc3;
+  }
+  
+  /* תצוגת תוצאות */
+  #productContainer {
+    margin-top: 40px;
+  }
+  
+  /* טבלה */
+  .results-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f7fdff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .results-table th, .results-table td {
+    border: 1px solid #dff8ff;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .results-table th {
+    background-color: #73a4f1;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .results-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .results-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .spinner {
+    margin: 20px auto;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid hwb(209 68% 1%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+  
